@@ -2,9 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>THIS WEBSITE HOSTED BY DHAIRYASHIL DESAI ON AWS S3 BUCKET</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATIC WEBSITE - Mumbai Region | desai-devops.info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .domain {
+            color: #ffeb3b;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .region {
+            color: #4caf50;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .urls {
+            text-align: left;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
 </head>
-<body style="background:#fff; color:#000; font-family:sans-serif; text-align:center; margin-top:100px;">
-    <h1>THIS WEBSITE HOSTED BY DHAIRYASHIL DESAI ON AWS S3 BUCKET</h1>
+<body>
+    <div class="container">
+        <h1>STATIC WEBSITE HOSTED BY DHAIRYASHIL DESAI</h1>
+        <div class="region">AWS Mumbai Region (ap-south-1)</div>
+        <div class="domain">mumbai.desai-devops.info</div>
+        
+        <div class="urls">
+            <p><strong>Available URLs:</strong></p>
+            <p>• Mumbai S3: <a href="http://mumbai.desai-devops.info" style="color: #4caf50;">mumbai.desai-devops.info</a></p>
+            <p>• CDN: <a href="https://cdn.desai-devops.info" style="color: #4caf50;">cdn.desai-devops.info</a></p>
+            <p>• Direct S3: <a href="http://s3web-ap-south-1.desai-devops.info.s3-website-ap-south-1.amazonaws.com" style="color: #4caf50;">S3 Website Endpoint</a></p>
+        </div>
+        
+        <p><strong>Services Used:</strong> AWS S3 • Route 53 • CloudFront CDN • Terraform</p>
+        <p><strong>Region:</strong> ap-south-1 (Mumbai)</p>
+        <p><strong>Domain:</strong> desai-devops.info</p>
+    </div>
 </body>
 </html>
